@@ -43,8 +43,6 @@ Na początku przygotujemy Jenkinsowy projekt (w angielskie wersji "Job"). Docelo
 
 Na początku zajmiemy się samą konfiguracją projektu, tak, żeby już w trakcie tworzeniu skryptu obliczającego metryki można było testować jego działanie w zewnętrznym środowisku jakim jest Jenkins.
 
-0. Stwórz wydziałowe repozytorium GIT 
-
 1. Zaloguj się na http://tzietkiewicz.vm.wmi.amu.edu.pl:8080 za pomcą konta wydziałowego (jak w laboratoriach WMI)
 
 2. Utwórz nowy projekt
@@ -56,8 +54,6 @@ Na początku zajmiemy się samą konfiguracją projektu, tak, żeby już w trakc
 
    Jako nazwę proszę wpisać "USERNAME-metrics", gdzie USERNAME proszę zastąpić swoją nazwą użytkownika
    
-   
-
 3. Zdefiniuj Pipeline
 
    Projekty typu Pipeline definiuje się w pliku Jenkinsfile za pomocą skryptu napisanego w jednym z dwóch dostępnych DSL (Domain Specific Language):
@@ -67,10 +63,24 @@ Na początku zajmiemy się samą konfiguracją projektu, tak, żeby już w trakc
 
    Fragmenty kodu można również generować za pomocą kreatora dostępnego pod linkiem "Pipeline syntax" na stronie projektu.
 
-   Pisanie własnego Jenkinsfile warto zacząć od lektury https://jenkins.io/doc/book/pipeline/getting-started/
+   Jenkinsfile może być wprowadzony bezpośrednio z poziomu przeglądarki, albo pobrany z repozytorium.
+  
+   Zacznijmy od pierwszej opcji. Jako przykładowego pipeline użyj przykładu Hello World podanego na https://jenkins.io/doc/book/pipeline/getting-started/
+   
+   Zapisz projekt i spróbuj go uruchomić (przycisk "Uruchom"/"Run" na głównej stronie projektu).
 
 
+4. Podłącz repozytorium git
 
+   * Stwórz nowe _publiczne_ repozytorium git na wydziałowym serwerze 
+    https://laboratoria.wmi.amu.edu.pl/uslugi/pozostale-uslugi/git/
+    Możesz je nazwać np. sNRINDEKSU-mlworkshops
+   
+   * Sklonuj repozytorium lokalnie zgodnie ze wskazówkami wyświetlonymi po jego utworzeniu.
+   
+   * Utwórz plik "Jenkinsfile" (zawartość taka sama jak poprzednio) i dodaj go do repozytorium.
+   
+   * W ustawieniach projektu przełącz "Pipeline definition" na "Pipeline script from SCM" i podaj ścieżkę do nowo utworzonego repo.
 
 ## 2. Docker
 
