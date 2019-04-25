@@ -14,7 +14,10 @@ W ramach warsztatów uczetnicy przygotują:
 3. Skrypt obliczający metryki mierzące jakość systemu ropoznawania mowy [[idz]](#3-metryki)
 4. Skrypt generujący wykresy na podstawie skumulowanych metryk obliczonych w punkcie 4. [[idz]](#4-wykresy)
 
-### 1. Jenkins
+Zadania
+=======
+
+## 1. Jenkins
 Jenkins to system ciągłej integracji napisany w języku Java, będący kontynuacją projektu Hudson.
 Umożliwia on między innymi automatyczne budowanie, testowanie i wydawanie oprogramowania.
 Działa jako aplikacja webowa z graficznym interfejsem umożliwiająca  łatwe zarządzanie i monitorowanie wykonywanych w niej zadań.m z
@@ -40,14 +43,36 @@ Na początku przygotujemy Jenkinsowy projekt (w angielskie wersji "Job"). Docelo
 
 Na początku zajmiemy się samą konfiguracją projektu, tak, żeby już w trakcie tworzeniu skryptu obliczającego metryki można było testować jego działanie w zewnętrznym środowisku jakim jest Jenkins.
 
-Istnieje kilka rodzajów projektów w Jenkinsie.
-Najbard
+0. Stwórz wydziałowe repozytorium GIT 
 
-Dostęp
-Jenkins: http://tzietkiewicz.vm.wmi.amu.edu.pl:8080
-logowanie: LDAP (jak w laboratoriach WMI)
+1. Zaloguj się na http://tzietkiewicz.vm.wmi.amu.edu.pl:8080 za pomcą konta wydziałowego (jak w laboratoriach WMI)
 
-### 2. Docker
+2. Utwórz nowy projekt
+
+   Istnieje kilka rodzajów projektów w Jenkinsie.
+
+   Po kliknięciu na "Nowy projekt" zobaczymy listę dostępnych rodzajów projektów.
+   Nas interesuje projekt typu "Pipeline".
+
+   Jako nazwę proszę wpisać "USERNAME-metrics", gdzie USERNAME proszę zastąpić swoją nazwą użytkownika
+   
+   
+
+3. Zdefiniuj Pipeline
+
+   Projekty typu Pipeline definiuje się w pliku Jenkinsfile za pomocą skryptu napisanego w jednym z dwóch dostępnych DSL (Domain Specific Language):
+    - Scripted pipeline (podzbiór języka Groovy)
+    - Declarative pipeline
+   Pierwszy z nich daje większe możliwości, drugi jest łatwiejszy i bardziej przejrzysty, ale ma mniejszą siłę ekpresji.
+
+   Fragmenty kodu można również generować za pomocą kreatora dostępnego pod linkiem "Pipeline syntax" na stronie projektu.
+
+   Pisanie własnego Jenkinsfile warto zacząć od lektury https://jenkins.io/doc/book/pipeline/getting-started/
+
+
+
+
+## 2. Docker
 
 * [Docker](https://docs.docker.com/get-started/)
 * [Dockerfile](https://docs.docker.com/engine/reference/builder/)
