@@ -3,7 +3,7 @@ Tasks and resources for ML workshops at AMU
 
 Dostęp
 ======
-http://tzietkiewicz.vm.wmi.amu.edu.pl
+http://tzietkiewicz.vm.wmi.amu.edu.pl:8080
 logowanie: LDAP (jak w laboratoriach WMI)
 
 Zasoby
