@@ -1,7 +1,12 @@
 # mlworkshops
 Tasks and resources for ML workshops at AMU
 
-Resources
+Dostęp
+======
+tzietkiewicz.vm.wmi.amu.edu.pl
+logowanie: LDAP (jak w laboratoriach WMI)
+
+Zasoby
 =========
 
 * [Jenkins pipelines](https://jenkins.io/doc/book/pipeline/)
