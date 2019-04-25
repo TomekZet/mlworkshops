@@ -1,5 +1,12 @@
-# mlworkshops
-Tasks and resources for ML workshops at AMU
+# Warsztaty z uczenia maszynowego
+### WMI UAM 2019
+### Tomasz Ziętkiewicz
+#### Samsung R&D Poland
+
+Cel warsztatów
+==============
+Celem warsztatów jest zapoznanie uczestników z narzędziami ciągłej integracji (Continous Integration), użuwanymi mięmdzy innymi do automtyzacji trenowania i ewaluacji systemów uczenia maszynowego.
+
 
 Dostęp
 ======
