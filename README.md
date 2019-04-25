@@ -3,6 +3,6 @@
 ### Tomasz Ziętkiewicz
 #### Samsung R&D Poland
 
-Więcej: [Wiki](wiki/)
+Więcej: [Wiki](https://github.com/TomekZet/mlworkshops/wiki)
 
 
