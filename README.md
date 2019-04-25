@@ -5,8 +5,13 @@
 
 Cel warsztatów
 ==============
-Celem warsztatów jest zapoznanie uczestników z narzędziami ciągłej integracji (Continous Integration), użuwanymi mięmdzy innymi do automtyzacji trenowania i ewaluacji systemów uczenia maszynowego.
+Celem warsztatów jest zapoznanie uczestników z narzędziami ciągłej integracji (Continous Integration).
+Jednym z potencjalnych zastosowań tych narzędzi jest automtyzacja trenowania i ewaluacji systemów uczenia maszynowego.
 
+W ramach warsztatów uczetnicy przygotują:
+1. Skrypt obliczający metryki mierzące jakość systemu ropoznawania mowy
+2. "Job" w systemie ciągłej integracji Jenkins służący do obliczania metryk za pomocą skryptu z punktu 1.
+3. Skrypt generujący wykresy 
 
 Dostęp
 ======
