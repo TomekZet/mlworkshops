@@ -14,25 +14,22 @@ W ramach warsztatów uczetnicy przygotują:
 3. Skrypt obliczający metryki mierzące jakość systemu ropoznawania mowy
 4. Skrypt generujący wykresy na podstawie skumulowanych metryk obliczonych w punkcie 4.
 
-Zadania
-=======
-
-1. Jenkins
----------
+### 1. Jenkins
 Dostęp
 Jenkins: http://tzietkiewicz.vm.wmi.amu.edu.pl:8080
 logowanie: LDAP (jak w laboratoriach WMI)
 
-2. Docker
----------
+### 2. Docker
+
+* [Docker](https://docs.docker.com/get-started/)
+* [Dockerfile](https://docs.docker.com/engine/reference/builder/)
+* [Docker run](https://docs.docker.com/engine/reference/run/)
+
+### 3. Metryki
 
 
-3. Metryki
-----------
+### 4. Wykresy
 
-
-4. Wykresy
-----------
 
 
 
@@ -40,8 +37,6 @@ Zasoby
 =========
 
 * [Jenkins pipelines](https://jenkins.io/doc/book/pipeline/)
-* [Docker](https://docs.docker.com/get-started/)
-* [Dockerfile](https://docs.docker.com/engine/reference/builder/)
-* [Docker run](https://docs.docker.com/engine/reference/run/)
+
 
 
