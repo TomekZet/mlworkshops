@@ -9,10 +9,10 @@ Celem warsztatów jest zapoznanie uczestników z narzędziami ciągłej integrac
 Jednym z potencjalnych zastosowań tych narzędzi jest automatyzacja trenowania i ewaluacji systemów uczenia maszynowego.
 
 W ramach warsztatów uczetnicy przygotują:
-1. "Job" w systemie ciągłej integracji Jenkins służący do obliczania metryk za pomocą skryptu z punktu 3.
-2. Skrypt budujący obraz Dockera, stanowiący środowisko do wywoływania skryptu z pkt. 3.
-3. Skrypt obliczający metryki mierzące jakość systemu ropoznawania mowy
-4. Skrypt generujący wykresy na podstawie skumulowanych metryk obliczonych w punkcie 4.
+1. "Job" w systemie ciągłej integracji Jenkins służący do obliczania metryk za pomocą skryptu z punktu 3. [[idz]](#1-jenkins)
+2. Skrypt budujący obraz Dockera, stanowiący środowisko do wywoływania skryptu z pkt. 3. [[idz]](#2-docker)
+3. Skrypt obliczający metryki mierzące jakość systemu ropoznawania mowy [[idz]](#3-metryki)
+4. Skrypt generujący wykresy na podstawie skumulowanych metryk obliczonych w punkcie 4. [[idz]](#4-wykresy)
 
 ### 1. Jenkins
 Dostęp
